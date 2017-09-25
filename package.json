@@ -1,0 +1,23 @@
+{
+  "name": "solium-plugin-sample",
+  "version": "0.0.0",
+  "description": "Solium Sample Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter spec --recursive"
+  },
+  "keywords": [
+    "solium",
+    "soliumplugin",
+    "solidity",
+    "ethereum",
+    "blockchain"
+  ],
+  "author": "Raghav Dua <duaraghav8@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "should": "^13.1.0"
+  }
+}
